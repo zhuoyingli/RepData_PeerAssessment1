@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Reproducible Research - Peer Assessment 1"
 output: html_document
 ---
@@ -138,3 +139,29 @@ xyplot(steps ~ interval | daylevel, data = steps_Day, type = "l", layout = c(1, 
        xlab = "5-minute Interval", ylab = "Average Number of steps", 
        main = "Average Number of Steps Taken between Weekdays and Weekends")
 ```
+=======
+title: "Reproducible Research: Peer Assessment 1"
+output: 
+  html_document:
+    keep_md: true
+---
+
+
+## Loading and preprocessing the data
+
+
+
+## What is mean total number of steps taken per day?
+
+
+
+## What is the average daily activity pattern?
+
+
+
+## Imputing missing values
+
+
+
+## Are there differences in activity patterns between weekdays and weekends?
+>>>>>>> 80edf39c3bb508fee88e3394542f967dd3fd3270
